@@ -9,7 +9,7 @@ sudo apt-get install sshrc
 
 ### Everything else:
 ```
-wget https://raw.githubusercontent.com/gnegri/sshrc/master/sshrc
+curl -fsSLO https://raw.githubusercontent.com/gnegri/sshrc/master/sshrc
 chmod +x sshrc
 sudo mv sshrc /usr/local/bin #or anywhere else on your PATH
 ```
