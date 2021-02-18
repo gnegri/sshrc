@@ -1,16 +1,18 @@
 <h2>Installation</h2>
 
-<h3>Ubuntu (12.04 and 14.04 only):</h3>
-    
-    $ sudo add-apt-repository ppa:russell-s-stewart/ppa
-    $ sudo apt-get update
-    $ sudo apt-get install sshrc
+### Ubuntu (12.04 and 14.04 only):
+```
+sudo add-apt-repository ppa:russell-s-stewart/ppa
+sudo apt-get update
+sudo apt-get install sshrc
+```
 
-
-<h3>Everything else:</h3>
-    $ wget https://raw.githubusercontent.com/Russell91/sshrc/master/sshrc
-    $ chmod +x sshrc
-    $ sudo mv sshrc /usr/local/bin #or anywhere else on your PATH
+### Everything else:
+```
+wget https://raw.githubusercontent.com/gnegri/sshrc/master/sshrc
+chmod +x sshrc
+sudo mv sshrc /usr/local/bin #or anywhere else on your PATH
+```
 
 <h2>Usage</h2>
 
